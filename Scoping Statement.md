@@ -4,13 +4,16 @@
 __Challenge Statement__
  * __desired state__
 
-Explore footage of Golden Snapper and the Giant Clam to proactively identify techniques to build out during a development spike scheduled for June. The ultimate goal is a human-in-the-loop pipeline for online learning with BRUV footage to determine max(n) of individual species in each fishery, and the knowledge transfer to progress the state-of-the-art we provide. As models are developed for each fishery a model zoo begins to emerge further accelerating transfer learning to further fisheries.
+Explore footage of Golden Snapper to proactively identify techniques to build out during a development spike scheduled for June. The ultimate goal is a human-in-the-loop pipeline for online learning with BRUV footage to determine max(n) of individual species in each fishery, and the knowledge transfer to progress the state-of-the-art we provide. As models are developed for each fishery a model zoo begins to emerge further accelerating transfer learning to further fisheries.
+
 To aid research into sustainability individual stocks need to be quantified in individual fisheries based on the guidance of researchers.
 
  * __current state__
 
 CSE have a development spike with fisheries research scientists from NT Fisheries and graduate students from Charles Darwin University scheduled for June with their baited remote underwater video footage.
+
 From recent papers, two techniques have provided acceptable results for detecting and classifying fish in video; a deep convolution neural network and a set of robust statistical techniques. The state-of-the-art has since progressed and with minimal image pre-processing, YOLOv3, Detectron and TensorFlow Object Detection API are each able to detect fish and classify incorrectly. Further initial exploratory data analysis indicates we can begin to classify fish correctly by applying transfer learning.
+
 A data preparation development spike was completed to conduct initial exploratory data analysis and prepare compute and data for a variety of frameworks. The initial exploratory data analysis has been documented in Azure Notebooks, used to knowledge transfer to NT Fisheries, and included scoring using YOLOv3, Detectron and TensorFlow Object Detection API and exploring using robust statistical techniques from papers.
 
  * __consequences__
@@ -20,8 +23,11 @@ We have to decide which network is good for this project. And after that, we cou
 
  * __expected benefits__
 
-For Microsoft Australia, the Northern Territory and Queensland Account Team have been successful enabling Azure for the Northern Territory Government - their first account and subscriptions - to provide the services for this engagement. Proving provenance through this engagement is leading to further opportunities to explore AI applied to primary industries in the Northern Territory. 
-For Commercial Software Engineering, we have the opportunity to develop a pipeline/service which provides out-of-the-box scoring of images and footage using a combination of Region Proposal Networks, base networks / models and framework, to expedite initial exploratory data analysis for applied computer vision, drawing from domain specific model zoos. We then better equip ourselves to help develop domain specific computer vision models globally. We're also encouraging the collation of the equivalent of ImageNet for BRUV, a perspective the can be used for further domains.
+For Microsoft Australia, the Northern Territory and Queensland Account Team have been successful enabling Azure for the Northern Territory Government - their first account and subscriptions - to provide the services for this engagement. Proving provenance through this engagement is leading to further opportunities to explore AI applied to primary industries in the Northern Territory.
+
+For Commercial Software Engineering, we have the opportunity to develop a pipeline/service which provides out-of-the-box scoring of images and footage using a combination of Region Proposal Networks, base networks / models and framework, to expedite initial exploratory data analysis for applied computer vision, and drawing from domain specific model zoos. We then better equip ourselves to help develop further domain specific computer vision models globally.
+
+We're also encouraging the collation of the equivalent of ImageNet for BRUV, a perspective the can be used for other domains.
 
 __Target Deliverables(we will update it until next Tuesday)__
 
