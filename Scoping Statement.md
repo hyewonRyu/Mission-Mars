@@ -2,6 +2,7 @@
 ### Participants : Steve Van Bodegraven, Azadeh Khojandi, Tempest van Schaik, Borys Rybak, Marieke Kortsmit, Graham Elliott, Megan Mallin, Youngwook Kim, Hyewon Ryu, Micheleen Harris, Jean-Sebastien Dupuy
 
 __Challenge Statement__
+
  * __desired state__
 
 Explore footage of Golden Snapper to proactively identify techniques to build out during a development spike scheduled for June. The ultimate goal is a human-in-the-loop pipeline for online learning with BRUV footage to determine max(n) of individual species in each fishery, and the knowledge transfer to progress the state-of-the-art we provide. As models are developed for each fishery a model zoo begins to emerge further accelerating transfer learning to further fisheries.
