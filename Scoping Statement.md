@@ -38,6 +38,7 @@ __Target Deliverables(we will update it until next Tuesday)__
  * collateral
    * Azure Template in GitHub to deploy CV Model Scoring pipeline with options for base models and domain specific models/zoo
  * feedback
+   * As part of initial exploratory data analysis frames exported from video were scored using Computer Vision API, which identified a fish being in the scene with ~75% accuracy compared to a human. The description of each frame was also more comprehensive than Google Vision API.
 
 __Key Questions/Expected Learnings__
 
